@@ -1,0 +1,5 @@
+git checkout gh-pages
+mv yourfolder/* .
+git add .
+git commit -m "Set folder as root for GitHub Pages"
+git push origin gh-pages
